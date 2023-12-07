@@ -8,7 +8,6 @@ from time import sleep
 from pyrate_limiter import (
     BucketFullException,
     Duration,
-    RequestRate,
     Limiter,
     MemoryListBucket,
 )
