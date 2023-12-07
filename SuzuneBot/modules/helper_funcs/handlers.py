@@ -8,6 +8,7 @@ from time import sleep
 from pyrate_limiter import (
     BucketFullException,
     Duration,
+    RequestRate, 
 )
 
 if ALLOW_EXCL:
